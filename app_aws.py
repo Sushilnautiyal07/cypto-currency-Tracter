@@ -18,7 +18,7 @@ ALERTS_TABLE = dynamodb.Table("Alerts")
 HISTORY_TABLE = dynamodb.Table("PriceHistory")
 
 # 🔔 REPLACE WITH YOUR ARN
-SNS_TOPIC_ARN = "arn:aws:sns:us-east-1:145023099530:aws_capstone_topic"
+SNS_TOPIC_ARN = "arn:aws:sns:us-east-1:108782060399:cryto_price_tracker"
 
 
 def send_sns_alert(subject, message):
